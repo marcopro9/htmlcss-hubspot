@@ -13,8 +13,11 @@ html{
 body{
   font-family: 'Montserrat', sans-serif;
   color: #32495b;
-  font-size: 1.4rem;
+  font-size: 1.5rem;
   font-weight: 600;
+}
+.fa-globe-europe, .fa-chevron-down{
+  font-size: 1.6rem;
 }
 /* fine tipografia */
 
@@ -34,6 +37,9 @@ body{
 a{
   text-decoration: none;
 }
+li{
+  list-style: none;
+}
 /* fine regole generali */
 
 /* inizio header */
@@ -45,45 +51,64 @@ a{
       line-height: 8rem;
       border-bottom: 0.1rem solid #32495b;
     }
-    header nav .uppernav .left-uppernav{
+    header nav .container .left-nav{
       width: 50%;
     }
-    header nav .uppernav .container .left-uppernav .fa-globe-europe,
-    header nav .uppernav .container .left-uppernav .fa-chevron-down{
-      font-size: 1.6rem;
-    }
-    header nav .uppernav .container .left-uppernav a{
+    header nav .uppernav .container .left-nav a{
       color: #32495b;
       margin-left: 2rem;
       padding-left: 2rem;
       border-left: 0.2rem solid #32495b;
     }
-    header nav .uppernav .container .right-uppernav{
+    header nav .container .right-nav{
       width: 50%;
       text-align: right;
     }
-    header nav .uppernav .container .right-uppernav .fa-search{
+    header nav .uppernav .container .right-nav .fa-search{
       color: #00a4bd;
       font-size: 1.4rem;
     }
-    header nav .uppernav .container .right-uppernav .btn-white{
+    header nav .uppernav .container .right-nav .btn-white{
       padding: 1rem;
       background-color: white;
       color: #fe775a;
       border: 0.1rem solid #fe775a;
       border-radius: 0.5rem;
     }
-    header nav .uppernav .container .right-uppernav .btn-orange{
+    header nav .uppernav .container .right-nav .btn-orange{
       padding: 1rem;
       background-color: #fe775a;
       color: white;
       border: 0.1rem solid #fe775a;
       border-radius: 0.5rem;
     }
-    header nav .uppernav .container .right-uppernav .btn-white,
-    header nav .uppernav .container .right-uppernav .btn-orange{
+    header nav .uppernav .container .right-nav .btn-white,
+    header nav .uppernav .container .right-nav .btn-orange{
       margin-left: 2rem;
     }
     /* fine uppernav */
+    /* inizio lower nav */
+    header nav .lowernav{
+      height: 8rem;
+      line-height: 8rem;
+    }
+    header nav .lowernav .logo{
+      vertical-align: middle;
+    }
+    header nav .lowernav .right-nav .menu li {
+      display: inline-block;
+      margin-left: 2rem;
+      padding-right: 1rem;
+    }
+    header nav .lowernav .right-nav .menu li a{
+      color: #32495b;
+    }
+    /* fine lower nav */
   /* fine nav */
+  /* inizio jumbotron */
+  .jumbotron{
+    background-color: #fff2ef;
+    height: 100rem;
+  }
+  /* fine jumbotron */
 /* fine header */
