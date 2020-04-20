@@ -1,0 +1,89 @@
+/* inizio reset */
+html{
+  font-size: 62.5%;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* fine reset */
+
+/* inizio tipografia */
+body{
+  font-family: 'Montserrat', sans-serif;
+  color: #32495b;
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+/* fine tipografia */
+
+/* inizio regole generali */
+.container{
+  width: 1280px;
+  margin: auto;
+}
+.col{
+  float: left;
+}
+.clearfix{
+  content: "";
+  display: table;
+  clear: both;
+}
+a{
+  text-decoration: none;
+}
+/* fine regole generali */
+
+/* inizio header */
+  /* inizio nav */
+    /* inizio uppernav */
+    header nav .uppernav{
+      background-color: #f4f9fd;
+      height: 8rem;
+      line-height: 8rem;
+      border-bottom: 0.1rem solid #32495b;
+    }
+    header nav .uppernav .left-uppernav{
+      width: 50%;
+    }
+    header nav .uppernav .container .left-uppernav .fa-globe-europe,
+    header nav .uppernav .container .left-uppernav .fa-chevron-down{
+      font-size: 1.6rem;
+    }
+    header nav .uppernav .container .left-uppernav a{
+      color: #32495b;
+      margin-left: 2rem;
+      padding-left: 2rem;
+      border-left: 0.2rem solid #32495b;
+    }
+    header nav .uppernav .container .right-uppernav{
+      width: 50%;
+      text-align: right;
+    }
+    header nav .uppernav .container .right-uppernav .fa-search{
+      color: #00a4bd;
+      font-size: 1.4rem;
+    }
+    header nav .uppernav .container .right-uppernav .btn-white{
+      padding: 1rem;
+      background-color: white;
+      color: #fe775a;
+      border: 0.1rem solid #fe775a;
+      border-radius: 0.5rem;
+    }
+    header nav .uppernav .container .right-uppernav .btn-orange{
+      padding: 1rem;
+      background-color: #fe775a;
+      color: white;
+      border: 0.1rem solid #fe775a;
+      border-radius: 0.5rem;
+    }
+    header nav .uppernav .container .right-uppernav .btn-white,
+    header nav .uppernav .container .right-uppernav .btn-orange{
+      margin-left: 2rem;
+    }
+    /* fine uppernav */
+  /* fine nav */
+/* fine header */
