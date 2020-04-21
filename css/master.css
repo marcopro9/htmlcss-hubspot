@@ -14,10 +14,17 @@ body{
   font-family: 'Montserrat', sans-serif;
   color: #32495b;
   font-size: 1.5rem;
-  font-weight: 600;
+  font-weight: 500;
+}
+h1{
+  font-size: 4.5rem;
+  font-weight: 700;
 }
 .fa-globe-europe, .fa-chevron-down{
   font-size: 1.6rem;
+}
+.note{
+  font-size: 1.2rem;
 }
 /* fine tipografia */
 
@@ -29,7 +36,7 @@ body{
 .col{
   float: left;
 }
-.clearfix{
+.clearfix::after{
   content: "";
   display: table;
   clear: both;
@@ -39,6 +46,13 @@ a{
 }
 li{
   list-style: none;
+}
+.btn-orange{
+  padding: 1rem;
+  background-color: #fe775a;
+  color: white;
+  border: 0.1rem solid #fe775a;
+  border-radius: 0.5rem;
 }
 /* fine regole generali */
 
@@ -75,13 +89,6 @@ li{
       border: 0.1rem solid #fe775a;
       border-radius: 0.5rem;
     }
-    header nav .uppernav .container .right-nav .btn-orange{
-      padding: 1rem;
-      background-color: #fe775a;
-      color: white;
-      border: 0.1rem solid #fe775a;
-      border-radius: 0.5rem;
-    }
     header nav .uppernav .container .right-nav .btn-white,
     header nav .uppernav .container .right-nav .btn-orange{
       margin-left: 2rem;
@@ -107,8 +114,32 @@ li{
   /* fine nav */
   /* inizio jumbotron */
   .jumbotron{
-    background-color: #fff2ef;
-    height: 100rem;
+    background-color: #fff4ee;
+    background-image: url(../img/jumbotron.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 70vh;
+  }
+  header .jumbotron .container h1{
+    width: 50%;
+    text-align: left;
+    padding-top: 8rem;
+  }
+  header .jumbotron .container p{
+    width: 48%;
+    text-align: left;
+    padding: 5rem 0;
+    line-height: 2.5rem;
+  }
+  header .jumbotron .container .btn-orange{
+    padding: 2rem 3.5rem;
+  }
+  header .jumbotron .jumbotron-bar{
+    height: 9rem;
+    background-color: #afebe4;
+    margin-top: 8.3rem;
+    border-bottom: 0.3rem solid #33475b;
+    border-top: 0.3rem solid #33475b;
   }
   /* fine jumbotron */
 /* fine header */
