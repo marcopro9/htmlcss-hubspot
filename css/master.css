@@ -20,6 +20,19 @@ h1{
   font-size: 4.5rem;
   font-weight: 700;
 }
+h2{
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+h3{
+  font-size: 2.5rem;
+}
+h4{
+  font-size: 1.8rem;
+}
+p{
+  line-height: 3rem;
+}
 .fa-globe-europe, .fa-chevron-down{
   font-size: 1.6rem;
 }
@@ -44,11 +57,11 @@ h1{
 a{
   text-decoration: none;
 }
-li{
+/* li{
   list-style: none;
-}
+} */
 .btn-orange{
-  padding: 1rem;
+  padding: 2rem 3.5rem;
   background-color: #fe775a;
   color: white;
   border: 0.1rem solid #fe775a;
@@ -89,6 +102,9 @@ li{
       border: 0.1rem solid #fe775a;
       border-radius: 0.5rem;
     }
+    header nav .uppernav .container .right-nav .btn-orange{
+      padding: 1rem;
+    }
     header nav .uppernav .container .right-nav .btn-white,
     header nav .uppernav .container .right-nav .btn-orange{
       margin-left: 2rem;
@@ -118,7 +134,7 @@ li{
     background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 70vh;
+    height: 73vh;
   }
   header .jumbotron .container h1{
     width: 50%;
@@ -129,17 +145,113 @@ li{
     width: 48%;
     text-align: left;
     padding: 5rem 0;
-    line-height: 2.5rem;
-  }
-  header .jumbotron .container .btn-orange{
-    padding: 2rem 3.5rem;
   }
   header .jumbotron .jumbotron-bar{
-    height: 9rem;
+    height: 7.9rem;
     background-color: #afebe4;
-    margin-top: 8.3rem;
+    margin-top: 7.6rem;
     border-bottom: 0.3rem solid #33475b;
     border-top: 0.3rem solid #33475b;
   }
   /* fine jumbotron */
 /* fine header */
+
+/* inizio main */
+  /* inizio softwares intro */
+  main .softwares{
+    background-color: #f4f9fd;
+    padding: 6rem 0;
+  }
+  main .softwares .section-intro{
+    text-align: center;
+  }
+  main .softwares .section-intro img{
+    height: 20rem;
+  }
+  main .softwares .section-intro p{
+    padding: 3rem 0;
+    width: 45%;
+    margin: auto;
+  }
+  main .softwares .box{
+    background-color: white;
+    padding: 8rem 10rem;
+    box-shadow: 0 0 0.4rem 0.2rem #e6ecf1;
+    border-radius: 0.8rem;
+    margin-bottom: 5rem;
+  }
+  main .softwares .container .box .inner-left{
+    width: 20%;
+    text-align: center;
+  }
+  main .softwares .container .box .illustration{
+    height: 11rem;
+    margin-bottom: 3.5rem;
+  }
+  main .softwares .container .box .inner-right{
+    width: 70%;
+    padding-left: 10rem;
+  }
+  main .softwares .container .box .inner-right p{
+    padding: 3rem 0rem 3rem;
+  }
+  main .softwares .container .box .inner-right h4{
+    position: relative;
+  }
+  main .softwares .container .box .inner-right h4:after{
+    content: "";
+    width: 45rem;
+    height: 0.2rem;
+    background-color: #32495b;
+    position: absolute;
+    bottom: 1rem;
+    left: 25rem;
+  }
+  main .softwares .container .box .features{
+  list-style-image: url("../img/check.png");
+  list-style-position: inside;
+  }
+  main .softwares .container .box .inner-right .features li{
+    float: left;
+    padding-right: 2.5rem;
+    padding-top: 2rem;
+  }
+  main .softwares .mini{
+    width: 30%;
+    padding: 4rem 3.5rem;
+    margin-bottom: -4rem;
+    text-align: center;
+  }
+  main .softwares #center-mini-box{
+    margin: 0 5%;
+  }
+  main .softwares .mini p{
+    padding: 2.5rem 0 5rem 0;
+  }
+  main .softwares .mini h4{
+    padding: 3rem 0;
+  }
+  main .softwares .mini ul{
+    text-align: left;
+    margin-bottom: 7rem;
+  }
+  main .softwares .mini .btn-orange{
+    margin-bottom: 5rem;
+  }
+  /* fine softwares intro */
+
+  /* inizio hubspot numbers */
+  main .hubspot-numbers{
+    text-align: center;
+    color: white;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,148,157,1) 0%, rgba(0,188,165,1) 100%);
+  }
+  main .hubspot-numbers .intro-hubspot-numbers{
+    padding: 5rem 0;
+  }
+  main .hubspot-numbers .intro-hubspot-numbers p{
+    padding: 3rem 0;
+  }
+  /* fine hubspot numbers */
+/* fine main */
