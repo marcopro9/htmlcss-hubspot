@@ -280,4 +280,38 @@ a{
     font-size: 3.5rem;
   }
   /* fine hubspot numbers */
+
+  /* inizio partners */
+  main .partners {
+    padding: 7rem 0rem;
+  }
+  main .partners .container .customers{
+    width: 20%;
+    margin-left: 5%;
+    padding-left: 4%;
+  }
+  main .partners .container .customers h2{
+    font-size: 5rem;
+    padding-bottom: 3rem;
+  }
+  main .partners .container .partners-logos{
+    width: 70%;
+    text-align: right;
+    margin-right: 5%;
+  }
+  main .partners .container .partners-logos .logos-list li{
+    display: inline;
+
+  }
+  main .partners .container .partners-logos .logos-list li img{
+    height: 18%;
+    width: 18%;
+    padding: 0 3rem 3rem 0;
+    vertical-align: middle;
+  }
+  /* fine partners */
+
+  /* inizio call to action */
+  
+  /* fine call to action */
 /* fine main */
