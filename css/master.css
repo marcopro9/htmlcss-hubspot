@@ -130,6 +130,7 @@ a{
   /* fine nav */
   /* inizio jumbotron */
   .jumbotron{
+    position: relative;
     background-color: #fff4ee;
     background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
@@ -144,12 +145,14 @@ a{
   header .jumbotron .container p{
     width: 48%;
     text-align: left;
-    padding: 5rem 0;
+    padding: 3.5rem 0 5rem 0;
   }
   header .jumbotron .jumbotron-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100vw;
     height: 7.9rem;
     background-color: #afebe4;
-    margin-top: 7.6rem;
     border-bottom: 0.3rem solid #33475b;
     border-top: 0.3rem solid #33475b;
   }
@@ -242,6 +245,7 @@ a{
 
   /* inizio hubspot numbers */
   main .hubspot-numbers{
+    padding: 1rem 0 10rem;
     text-align: center;
     color: white;
     background: rgb(2,0,36);
@@ -251,7 +255,29 @@ a{
     padding: 5rem 0;
   }
   main .hubspot-numbers .intro-hubspot-numbers p{
-    padding: 3rem 0;
+    padding: 2rem 0 0 0;
+  }
+  main .hubspot-numbers .container .square-boxes-container .square-box{
+    width: 25%;
+    padding: 2rem 2rem;
+    float: left;
+    border-right: 0.1rem solid;
+    border-bottom: 0.1rem solid;
+  }
+  main .hubspot-numbers .container .square-boxes-container .square-box:nth-child(4n-8){
+    border-right: none;
+    border-bottom: 0.1rem solid;
+  }
+  main .hubspot-numbers .container .square-boxes-container .square-box:nth-child(n+5){
+    border-bottom: none;
+  }
+  main .hubspot-numbers .container .square-boxes-container .square-box h2{
+    padding: 1rem 0;
+  }
+  main .hubspot-numbers .container .square-boxes-container .square-box h2::after{
+    content: "+";
+    font-weight: 400;
+    font-size: 3.5rem;
   }
   /* fine hubspot numbers */
 /* fine main */
