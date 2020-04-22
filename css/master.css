@@ -150,7 +150,7 @@ a{
   header .jumbotron .jumbotron-bar{
     position: absolute;
     bottom: 0;
-    width: 100vw;
+    width: 100%;
     height: 7.9rem;
     background-color: #afebe4;
     border-bottom: 0.3rem solid #33475b;
@@ -283,7 +283,7 @@ a{
 
   /* inizio partners */
   main .partners {
-    padding: 7rem 0rem;
+    padding: 7rem 0rem 7rem 0;
   }
   main .partners .container .customers{
     width: 20%;
@@ -301,10 +301,8 @@ a{
   }
   main .partners .container .partners-logos .logos-list li{
     display: inline;
-
   }
   main .partners .container .partners-logos .logos-list li img{
-    height: 18%;
     width: 18%;
     padding: 0 3rem 3rem 0;
     vertical-align: middle;
@@ -312,6 +310,21 @@ a{
   /* fine partners */
 
   /* inizio call to action */
-  
+  section .container .cta-left{
+    width: 50%;
+    padding: 3rem 0 0 0;
+  }
+  section .container .cta-left p{
+    padding: 4rem 6rem 7rem 0;
+  }
+  section .container .cta-left .note{
+    margin-top: 1rem;
+  }
+  section .container .cta-img-right{
+    text-align: right;
+  }
+  section .container .cta-img-right img{
+    height: 40rem;
+  }
   /* fine call to action */
 /* fine main */
