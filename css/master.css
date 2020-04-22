@@ -30,10 +30,14 @@ h3{
 h4{
   font-size: 1.8rem;
 }
+h5, footer p{
+  font-size: 1.5rem;
+  color: white;
+}
 p{
   line-height: 3rem;
 }
-.fa-globe-europe, .fa-chevron-down{
+i{
   font-size: 1.6rem;
 }
 .note{
@@ -57,15 +61,15 @@ p{
 a{
   text-decoration: none;
 }
-/* li{
-  list-style: none;
-} */
 .btn-orange{
   padding: 2rem 3.5rem;
   background-color: #fe775a;
   color: white;
-  border: 0.1rem solid #fe775a;
   border-radius: 0.5rem;
+}
+.btn-orange:hover{
+  transition: .3s ease-in-out;
+  background-color: rgba(254, 119, 90, 0.7) ;
 }
 /* fine regole generali */
 
@@ -101,6 +105,10 @@ a{
       color: #fe775a;
       border: 0.1rem solid #fe775a;
       border-radius: 0.5rem;
+    }
+    header nav .uppernav .container .right-nav .btn-white:hover{
+    transition: .3s ease-in-out;
+    background-color: rgba(249, 228, 212, 0.5) ;
     }
     header nav .uppernav .container .right-nav .btn-orange{
       padding: 1rem;
@@ -328,3 +336,53 @@ a{
   }
   /* fine call to action */
 /* fine main */
+
+/* inizio footer */
+footer{
+  background-color: #32495b;
+  padding: 4rem 0;
+}
+footer .container .menus{
+  width: 25%;
+}
+footer .container .menus h5{
+  padding-bottom: 2rem;
+}
+footer .container .menus .footer-menu{
+  list-style-type: none;
+  margin-bottom: 2rem;
+}
+footer .container .menus .footer-menu li{
+  padding: 0.8rem 0;
+}
+footer .container .footer-link{
+  color: #bdc9d6;
+  padding-right: 2.5rem;
+}
+footer .container .menus .btn-grey-footer{
+  color: #32495b;
+  background-color: #dadee0;
+  padding: 1rem;
+  border-radius: 0.3rem;
+}
+footer .container .menus .footer-social{
+  padding-top: 3.5rem;
+}
+footer .container .menus .footer-social li{
+  display: inline;
+  color: #bdc9d6;
+}
+footer .container .languages{
+  padding-top: 7rem;
+  padding-bottom: 2rem;
+  text-align: center;
+  border-bottom: 0.1rem solid #bdc9d6;
+}
+footer .container .lower-footer{
+  padding-top: 4rem;
+}
+footer .container .lower-footer .lower-right-footer{
+  text-align: right;
+  float: right;
+}
+/* fine footer */
