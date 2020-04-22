@@ -32,7 +32,7 @@ h4{
 }
 h5, footer p{
   font-size: 1.5rem;
-  color: white;
+  color: #fff;
 }
 p{
   line-height: 3rem;
@@ -64,8 +64,8 @@ a{
 .btn-orange{
   padding: 2rem 3.5rem;
   background-color: #fe775a;
-  color: white;
-  border-radius: 0.5rem;
+  color: #fff;
+  border-radius: .5rem;
 }
 .btn-orange:hover{
   transition: .3s ease-in-out;
@@ -80,7 +80,7 @@ a{
       background-color: #f4f9fd;
       height: 8rem;
       line-height: 8rem;
-      border-bottom: 0.1rem solid #32495b;
+      border-bottom: .1rem solid #32495b;
     }
     header nav .container .left-nav{
       width: 50%;
@@ -89,7 +89,7 @@ a{
       color: #32495b;
       margin-left: 2rem;
       padding-left: 2rem;
-      border-left: 0.2rem solid #32495b;
+      border-left: .2rem solid #32495b;
     }
     header nav .container .right-nav{
       width: 50%;
@@ -97,14 +97,13 @@ a{
     }
     header nav .uppernav .container .right-nav .fa-search{
       color: #00a4bd;
-      font-size: 1.4rem;
     }
     header nav .uppernav .container .right-nav .btn-white{
       padding: 1rem;
-      background-color: white;
+      background-color: #fff;
       color: #fe775a;
-      border: 0.1rem solid #fe775a;
-      border-radius: 0.5rem;
+      border: .1rem solid #fe775a;
+      border-radius: .5rem;
     }
     header nav .uppernav .container .right-nav .btn-white:hover{
     transition: .3s ease-in-out;
@@ -143,7 +142,7 @@ a{
     background-image: url(../img/jumbotron.png);
     background-repeat: no-repeat;
     background-position: right;
-    height: 73vh;
+    height: 68.5rem;
   }
   header .jumbotron .container h1{
     width: 50%;
@@ -153,7 +152,7 @@ a{
   header .jumbotron .container p{
     width: 48%;
     text-align: left;
-    padding: 3.5rem 0 5rem 0;
+    padding: 3.5rem 0 5rem;
   }
   header .jumbotron .jumbotron-bar{
     position: absolute;
@@ -161,8 +160,8 @@ a{
     width: 100%;
     height: 7.9rem;
     background-color: #afebe4;
-    border-bottom: 0.3rem solid #33475b;
-    border-top: 0.3rem solid #33475b;
+    border-bottom: .3rem solid #33475b;
+    border-top: .3rem solid #33475b;
   }
   /* fine jumbotron */
 /* fine header */
@@ -185,10 +184,10 @@ a{
     margin: auto;
   }
   main .softwares .box{
-    background-color: white;
+    background-color: #fff;
     padding: 8rem 10rem;
-    box-shadow: 0 0 0.4rem 0.2rem #e6ecf1;
-    border-radius: 0.8rem;
+    box-shadow: 0 0 .4rem .2rem #e6ecf1;
+    border-radius: .8rem;
     margin-bottom: 5rem;
   }
   main .softwares .container .box .inner-left{
@@ -204,7 +203,7 @@ a{
     padding-left: 10rem;
   }
   main .softwares .container .box .inner-right p{
-    padding: 3rem 0rem 3rem;
+    padding: 3rem 0;
   }
   main .softwares .container .box .inner-right h4{
     position: relative;
@@ -212,7 +211,7 @@ a{
   main .softwares .container .box .inner-right h4:after{
     content: "";
     width: 45rem;
-    height: 0.2rem;
+    height: .2rem;
     background-color: #32495b;
     position: absolute;
     bottom: 1rem;
@@ -237,7 +236,7 @@ a{
     margin: 0 5%;
   }
   main .softwares .mini p{
-    padding: 2.5rem 0 5rem 0;
+    padding: 2.5rem 0 5rem;
   }
   main .softwares .mini h4{
     padding: 3rem 0;
@@ -255,26 +254,26 @@ a{
   main .hubspot-numbers{
     padding: 1rem 0 10rem;
     text-align: center;
-    color: white;
-    background: rgb(2,0,36);
+    color: #fff;
+    background: #020024;
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(3,148,157,1) 0%, rgba(0,188,165,1) 100%);
   }
   main .hubspot-numbers .intro-hubspot-numbers{
     padding: 5rem 0;
   }
   main .hubspot-numbers .intro-hubspot-numbers p{
-    padding: 2rem 0 0 0;
+    padding: 2rem 0 0;
   }
   main .hubspot-numbers .container .square-boxes-container .square-box{
     width: 25%;
-    padding: 2rem 2rem;
+    padding: 2rem;
     float: left;
-    border-right: 0.1rem solid;
-    border-bottom: 0.1rem solid;
+    border-right: .1rem solid;
+    border-bottom: .1rem solid;
   }
   main .hubspot-numbers .container .square-boxes-container .square-box:nth-child(4n-8){
     border-right: none;
-    border-bottom: 0.1rem solid;
+    border-bottom: .1rem solid;
   }
   main .hubspot-numbers .container .square-boxes-container .square-box:nth-child(n+5){
     border-bottom: none;
@@ -291,7 +290,7 @@ a{
 
   /* inizio partners */
   main .partners {
-    padding: 7rem 0rem 7rem 0;
+    padding: 7rem 0;
   }
   main .partners .container .customers{
     width: 20%;
@@ -320,7 +319,7 @@ a{
   /* inizio call to action */
   section .container .cta-left{
     width: 50%;
-    padding: 3rem 0 0 0;
+    padding: 3rem 0 0;
   }
   section .container .cta-left p{
     padding: 4rem 6rem 7rem 0;
@@ -353,7 +352,7 @@ footer .container .menus .footer-menu{
   margin-bottom: 2rem;
 }
 footer .container .menus .footer-menu li{
-  padding: 0.8rem 0;
+  padding: .8rem 0;
 }
 footer .container .footer-link{
   color: #bdc9d6;
@@ -363,7 +362,7 @@ footer .container .menus .btn-grey-footer{
   color: #32495b;
   background-color: #dadee0;
   padding: 1rem;
-  border-radius: 0.3rem;
+  border-radius: .3rem;
 }
 footer .container .menus .footer-social{
   padding-top: 3.5rem;
@@ -376,7 +375,7 @@ footer .container .languages{
   padding-top: 7rem;
   padding-bottom: 2rem;
   text-align: center;
-  border-bottom: 0.1rem solid #bdc9d6;
+  border-bottom: .1rem solid #bdc9d6;
 }
 footer .container .lower-footer{
   padding-top: 4rem;
