@@ -62,10 +62,11 @@ a{
   text-decoration: none;
 }
 .btn-orange{
-  padding: 2rem 3.5rem;
+  padding: 2rem 2.5rem;
   background-color: #fe775a;
   color: #fff;
   border-radius: .5rem;
+  display: inline-block;
 }
 .btn-orange:hover{
   transition: .3s ease-in-out;
@@ -79,10 +80,9 @@ a{
     header nav .uppernav{
       background-color: #f4f9fd;
       height: 8rem;
-      line-height: 8rem;
       border-bottom: .1rem solid #32495b;
     }
-    header nav .container .left-nav{
+    header nav .uppernav .container .left-nav, header nav .uppernav .container .right-nav {
       width: 50%;
     }
     header nav .uppernav .container .left-nav a{
@@ -90,10 +90,11 @@ a{
       margin-left: 2rem;
       padding-left: 2rem;
       border-left: .2rem solid #32495b;
+      line-height: 8rem;
     }
     header nav .container .right-nav{
-      width: 50%;
       text-align: right;
+      margin-top: 2rem;
     }
     header nav .uppernav .container .right-nav .fa-search{
       color: #00a4bd;
@@ -110,7 +111,7 @@ a{
     background-color: rgba(249, 228, 212, 0.5) ;
     }
     header nav .uppernav .container .right-nav .btn-orange{
-      padding: 1rem;
+      padding: 1.1rem;
     }
     header nav .uppernav .container .right-nav .btn-white,
     header nav .uppernav .container .right-nav .btn-orange{
@@ -120,15 +121,18 @@ a{
     /* inizio lower nav */
     header nav .lowernav{
       height: 8rem;
-      line-height: 8rem;
+      line-height: 4rem;
+    }
+    header nav .lowernav .container .left-nav{
+      width: 50%;
     }
     header nav .lowernav .logo{
-      vertical-align: middle;
+      margin-top: 2.2rem;
     }
     header nav .lowernav .right-nav .menu li {
       display: inline-block;
-      margin-left: 2rem;
-      padding-right: 1rem;
+      margin-left: 3rem;
+      padding-left: 1.5rem;
     }
     header nav .lowernav .right-nav .menu li a{
       color: #32495b;
@@ -136,7 +140,7 @@ a{
     /* fine lower nav */
   /* fine nav */
   /* inizio jumbotron */
-  .jumbotron{
+  header .jumbotron{
     position: relative;
     background-color: #fff4ee;
     background-image: url(../img/jumbotron.png);
@@ -152,7 +156,7 @@ a{
   header .jumbotron .container p{
     width: 48%;
     text-align: left;
-    padding: 3.5rem 0 5rem;
+    padding: 3rem 0 5rem;
   }
   header .jumbotron .jumbotron-bar{
     position: absolute;
@@ -210,12 +214,13 @@ a{
   }
   main .softwares .container .box .inner-right h4:after{
     content: "";
-    width: 45rem;
+    width: 60%;
     height: .2rem;
     background-color: #32495b;
     position: absolute;
-    bottom: 1rem;
-    left: 25rem;
+    bottom: 50%;
+    right: 50%;
+    transform: translateX(80%);
   }
   main .softwares .container .box .features{
   list-style-image: url("../img/check.png");
@@ -243,10 +248,7 @@ a{
   }
   main .softwares .mini ul{
     text-align: left;
-    margin-bottom: 7rem;
-  }
-  main .softwares .mini .btn-orange{
-    margin-bottom: 5rem;
+    margin-bottom: 6rem;
   }
   /* fine softwares intro */
 
@@ -322,7 +324,7 @@ a{
     padding: 3rem 0 0;
   }
   section .container .cta-left p{
-    padding: 4rem 6rem 7rem 0;
+    padding: 4rem 6rem 4rem 0;
   }
   section .container .cta-left .note{
     margin-top: 1rem;
@@ -372,8 +374,7 @@ footer .container .menus .footer-social li{
   color: #bdc9d6;
 }
 footer .container .languages{
-  padding-top: 7rem;
-  padding-bottom: 2rem;
+  padding: 7rem 0 2rem;
   text-align: center;
   border-bottom: .1rem solid #bdc9d6;
 }
